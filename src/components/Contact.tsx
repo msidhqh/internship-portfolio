@@ -34,13 +34,32 @@ export function Contact() {
           >
             LinkedIn <span aria-hidden="true">↗</span>
           </ActionButton>
-          <a
-            href="/assets/internresume.pdf"
-            download="Maahirah_Sidhiqah_Resume.pdf"
-            className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium bg-ivory text-espresso hover:bg-beige"
+          <ActionButton
+            onClick={async () => {
+              const url = '/assets/internresume.pdf'
+              try {
+                const res = await fetch(url)
+                if (!res.ok) throw new Error('Network error')
+                const blob = await res.blob()
+                const blobUrl = URL.createObjectURL(blob)
+                const a = document.createElement('a')
+                a.href = blobUrl
+                a.download = 'Maahirah_Sidhiqah_Resume.pdf'
+                document.body.appendChild(a)
+                a.click()
+                a.remove()
+                URL.revokeObjectURL(blobUrl)
+              } catch (e) {
+                // Fallback to direct link if fetch/download fails
+                window.location.href = url
+              }
+            }}
+            variant="light"
+            className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium"
+            ariaLabel="Download resume"
           >
             Download Resume ↓
-          </a>
+          </ActionButton>
         </div>
 
         {(!email || !linkedin ) && (
