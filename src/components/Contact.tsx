@@ -35,8 +35,8 @@ export function Contact() {
             LinkedIn <span aria-hidden="true">↗</span>
           </ActionButton>
           <a
-            href="/assets/resume.pdf"
-            download
+            href="/assets/internresume.pdf"
+            download="Maahirah_Sidhiqah_Resume.pdf"
             className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium bg-ivory text-espresso hover:bg-beige"
           >
             Download Resume ↓
