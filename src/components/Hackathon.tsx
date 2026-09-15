@@ -27,7 +27,7 @@ export function Hackathon() {
           </ul>
           <div className="mt-6">
             <ActionButton
-              onClick={() => window.open('/assets/hackathoncert.pdf', '_blank')}
+              onClick={() => window.open(`${import.meta.env.BASE_URL}assets/hackathoncert.pdf`, '_blank')}
               variant="solid"
               className="px-6"
               ariaLabel="View hackathon certificate"

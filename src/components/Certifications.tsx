@@ -59,7 +59,11 @@ export function Certifications() {
                         )}
 
                         <ActionButton
-                          onClick={() => window.open(c.documentUrl || '#', '_blank')}
+                          onClick={() => {
+                            const doc = c.documentUrl || '#'
+                            const url = doc.startsWith('/assets/') ? `${import.meta.env.BASE_URL}${doc.replace(/^\//, '')}` : doc
+                            window.open(url, '_blank')
+                          }}
                           variant="solid"
                           className="px-6"
                           ariaLabel={`Open certificate ${c.name} in new tab`}

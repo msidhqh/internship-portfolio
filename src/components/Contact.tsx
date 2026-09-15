@@ -36,7 +36,7 @@ export function Contact() {
           </ActionButton>
           <ActionButton
             onClick={async () => {
-              const url = '/assets/internresume.pdf'
+              const url = `${import.meta.env.BASE_URL}assets/internresume.pdf`
               try {
                 const res = await fetch(url)
                 if (!res.ok) throw new Error('Network error')
