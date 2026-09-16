@@ -31,12 +31,11 @@ export const hackathon = {
   name: profile.hackathonName,
   date: profile.hackathonDate,
   summary:
-    'Participated in a time-constrained team hackathon involving rapid ideation, collaborative development and solution pitching.',
+    'Worked with a team to develop a website using AWS services and presented our solution to a panel on the event day.',
   themes: [
+    'AWS services',
     'Team collaboration',
-    'Rapid ideation',
-    'Problem solving',
-    'Building under time constraints',
+    'Rapid prototyping',
     'Solution pitching',
   ],
 }

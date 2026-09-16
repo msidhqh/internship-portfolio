@@ -10,7 +10,7 @@ export function Hackathon() {
         <Reveal>
           <SectionLabel>Hackathon participation</SectionLabel>
           <h2 className="heading-editorial mt-4 text-3xl md:text-4xl">
-            Built under a clock, with a team.
+            Turning an idea into something real.
           </h2>
           <p className="mt-3 text-sm text-accent">
             {hackathon.name} · {hackathon.date}
