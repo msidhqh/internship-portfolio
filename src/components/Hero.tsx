@@ -22,7 +22,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.45, delay: delay(0) }}
           >
-            DIPLOMA IN INFORMATION TECHNOLOGY • NANYANG POLYTECHNIC
+            DIPLOMA IN INFORMATION TECHNOLOGY • CYBERSECURITY SPECIALISATION • NANYANG POLYTECHNIC
           </motion.p>
 
 

@@ -22,7 +22,7 @@ export function About() {
         <div>
           <Reveal delay={0.08}>
             <p className="max-w-xl text-lg leading-relaxed text-ink/85">
-              I’m a Diploma in Information Technology student at Nanyang Polytechnic with hands-on experience across software development, cloud technologies, databases, data visualization and UX/UI design. Through academic and client-based projects, I’ve designed and developed practical web applications, working across both the technical implementation and user experience of the products I create. Beyond technical work, my experience in NYP's SIT Club as an EXCO has strengthened my communication, teamwork and ability to take ownership. I’m currently looking for an IT internship where I can apply my skills, contribute to real-world projects and continue growing as a technology professional.
+              I’m a Diploma in Information Technology student at Nanyang Polytechnic who's currently specialising in cybersecurity, with hands-on experience across software development, cloud technologies, databases, data visualization and UX/UI design. Through academic and client-based projects, I’ve designed and developed practical web applications, working across both the technical implementation and user experience of the products I create. Beyond technical work, my experience in NYP's SIT Club as an EXCO has strengthened my communication, teamwork and ability to take ownership. I’m currently looking for an IT internship where I can apply my skills, contribute to real-world projects and continue growing as a technology professional.
             </p>
           </Reveal>
           <Reveal delay={0.16}>
