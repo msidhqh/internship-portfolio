@@ -68,25 +68,25 @@ export const projects: Project[] = [
     visual: 'sccci',
     images: [
       {
-        src: '/assets/sccci_activetickets.png',
+        src: `${import.meta.env.BASE_URL}assets/sccci_activetickets.png`,
         title: 'Active tickets',
         caption: 'Coordinator dashboard for viewing, filtering, and resolving open delegation requests in real-time.',
         alt: 'SCCCI active tickets dashboard',
       },
       {
-        src: '/assets/sccci_resolutionqueue.png',
+        src: `${import.meta.env.BASE_URL}assets/sccci_resolutionqueue.png`,
         title: 'Resolution queue',
         caption: 'Prioritized queue for coordinators to review and process pending tickets before marking them as resolved.',
         alt: 'SCCCI resolution queue',
       },
       {
-        src: '/assets/sccci_systemdiagnostics.png',
+        src: `${import.meta.env.BASE_URL}assets/sccci_systemdiagnostics.png`,
         title: 'System diagnostics',
         caption: 'Real-time system health monitor displaying connection status, live sync metrics, and backup connection alerts.',
         alt: 'SCCCI system diagnostics monitor',
       },
       {
-        src: '/assets/sccci_facialrecogscanning.png',
+        src: `${import.meta.env.BASE_URL}assets/sccci_facialrecogscanning.png`,
         title: 'Facial recognition scanning',
         caption: "Biometric check-in feature allowing staff to verify a delegate's identity by scanning their face as an alternative to QR codes.",
         alt: 'SCCCI facial recognition scanning',
@@ -173,25 +173,25 @@ export const projects: Project[] = [
     visual: 'motors',
     images: [
       {
-        src: '/assets/chinhon_landingpg.png',
+        src: `${import.meta.env.BASE_URL}assets/chinhon_landingpg.png`,
         title: 'Landing page',
         caption: "Landing page for the Motors Intelligence Hub featuring Chin Hon Motor's animated logo and login prompt to access the internal pricing console.",
         alt: "Chin Hon Motors landing page",
       },
       {
-        src: '/assets/chinhon_pricingrulesmanagement.png',
+        src: `${import.meta.env.BASE_URL}assets/chinhon_pricingrulesmanagement.png`,
         title: 'Pricing rules management',
         caption: 'Automated pricing rules management interface showing configurable conditions and adjustments for demand levels, stock quantities, and competitor pricing strategies.',
         alt: 'Chin Hon pricing rules management interface',
       },
       {
-        src: '/assets/chinhon_pricegeneration.png',
+        src: `${import.meta.env.BASE_URL}assets/chinhon_pricegeneration.png`,
         title: 'Price generation',
         caption: 'Price generation dashboard with real-time metrics, smart alerts for low stock and competitor undercutting, and rule impact analysis for recommended pricing.',
         alt: 'Chin Hon price generation dashboard',
       },
       {
-        src: '/assets/chinhon_pricinghistory.png',
+        src: `${import.meta.env.BASE_URL}assets/chinhon_pricinghistory.png`,
         title: 'Pricing history',
         caption: 'Historical view of past pricing recommendations with filterable records, decision tracking, and activity logs for audit and review purposes.',
         alt: 'Chin Hon pricing history view',
@@ -233,19 +233,19 @@ export const projects: Project[] = [
     visual: 'education',
     images: [
       {
-        src: '/assets/education_overview.png',
+        src: `${import.meta.env.BASE_URL}assets/education_overview.png`,
         title: 'Overview',
         caption: 'Global education spending overview with geographic map visualization showing government education expenditure as percentage of GDP across countries, plus comparative bar chart analysis.',
         alt: 'Education spending overview map and bar charts',
       },
       {
-        src: '/assets/education_spending_analysis.png',
+        src: `${import.meta.env.BASE_URL}assets/education_spending_analysis.png`,
         title: 'Spending vs outcomes',
         caption: 'Interactive scatter plots analyzing the relationship between government education spending and learning outcomes across countries, comparing test scores with schooling quantity and quality metrics.',
         alt: 'Education spending vs outcomes scatter plots',
       },
       {
-        src: '/assets/education_efficiency_summary.png',
+        src: `${import.meta.env.BASE_URL}assets/education_efficiency_summary.png`,
         title: 'Efficiency summary',
         caption: 'Education efficiency rankings and performance summary showing countries achieving stronger learning outcomes relative to spending levels, highlighting the impact of policy effectiveness over expenditure alone.',
         alt: 'Education efficiency rankings and summary',

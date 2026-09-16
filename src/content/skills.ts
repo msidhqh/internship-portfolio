@@ -32,13 +32,8 @@ export const skillGroups: SkillGroup[] = [
     id: 'cybersecurity',
     label: 'Cybersecurity',
     description:
-      'Applying foundational security concepts through authentication, access control and secure application features.',
-    items: [
-      'Authentication',
-      'Access Control',
-      'Multi-Factor Authentication (MFA)',
-      'IAM',
-    ],
+      'Currently learning: Application Security · Cybersecurity Attack & Defence · Cyber Forensic Technologies & Processes',
+    items: ['Authentication', 'Access Control', 'Multi-Factor Authentication (MFA)'],
   },
   {
     id: 'data-analytics',
