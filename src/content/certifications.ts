@@ -19,7 +19,7 @@ export const certifications: Certification[] = [
     date: 'Sep 2026',
     credentialId: '99634f54-8913-4632-9e37-9f98377d79f9',
     verifyUrl: 'https://www.credly.com/earner/earned/badge/99634f54-8913-4632-9e37-9f98377d79f9',
-    documentUrl: '/assets/AWSAcademy_GenAI.pdf',
+    documentUrl: `${import.meta.env.BASE_URL}assets/AWSAcademy_GenAI.pdf`,
   },
   {
     id: 'aws-cloud',
@@ -29,7 +29,7 @@ export const certifications: Certification[] = [
     date: 'Sep 2026',
     credentialId: 'ffcb60ac-f4de-4548-93bc-224be5069391',
     verifyUrl: 'https://www.credly.com/earner/earned/badge/ffcb60ac-f4de-4548-93bc-224be5069391',
-    documentUrl: '/assets/AWSAcademy_CloudFoundations.pdf',
+    documentUrl: `${import.meta.env.BASE_URL}assets/AWSAcademy_CloudFoundations.pdf`,
   },
   {
     id: 'anthropic-ai',
@@ -38,7 +38,7 @@ export const certifications: Certification[] = [
     issuer: 'Anthropic',
     date: 'Dec 2025',
     verifyUrl: 'https://verify.skilljar.com/c/dotnxyan3o4y',
-    documentUrl: '/assets/AnthropicAI.pdf',
+    documentUrl: `${import.meta.env.BASE_URL}assets/AnthropicAI.pdf`,
   },
   {
     id: 'ibm-web',
