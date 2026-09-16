@@ -12,11 +12,12 @@ export function Contact() {
       <div className="mx-auto max-w-6xl">
         <SectionLabel light>Let’s connect</SectionLabel>
         <h2 className="heading-editorial mt-6 max-w-[14ch] text-4xl text-ivory md:text-6xl lg:text-7xl">
-          Let’s build something meaningful.
+          Open to new opportunities.
         </h2>
         <p className="mt-6 max-w-md text-beige/80">
-          I’m currently open to IT internship opportunities and would love to
-          connect.
+          I’m currently seeking an IT internship where I can contribute to
+          real-world projects, apply my technical skills and continue growing
+          through industry experience.
         </p>
 
         <div className="mt-12 flex flex-wrap gap-3">
