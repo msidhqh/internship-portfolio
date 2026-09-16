@@ -29,12 +29,12 @@ export function Projects({ onOpen }: Props) {
           <div>
             <SectionLabel>Selected work</SectionLabel>
             <h2 className="heading-editorial mt-4 text-4xl md:text-6xl">
-              Projects, treated as case studies.
+              A closer look at what I’ve built.
             </h2>
           </div>
           <p className="max-w-xs text-sm leading-relaxed text-ink/70">
-            Four pieces of work across operations, education, commerce, and data.
-            No filler.
+            A selection of projects spanning web development, UX/UI, operations,
+            and data — built through coursework, client work and team projects.
           </p>
         </Reveal>
 
