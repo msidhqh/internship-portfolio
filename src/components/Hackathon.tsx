@@ -22,14 +22,24 @@ export function Hackathon() {
             “Our team developed a peer tutoring platform for the hackathon, with
             my focus on the UI/UX and student-facing experience.”
           </p>
-          <ActionButton
-            href="#peer-tutoring-platform"
-            variant="solid"
-            className="mt-6 px-6 py-3 text-base"
-            ariaLabel="Explore the Peer Tutoring Platform"
-          >
-            Explore the Peer Tutoring Platform →
-          </ActionButton>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <ActionButton
+              href="#peer-tutoring-platform"
+              variant="solid"
+              className="min-w-[280px] justify-center px-6 py-3 text-base"
+              ariaLabel="Explore the Peer Tutoring Platform"
+            >
+              Explore the Peer Tutoring Platform →
+            </ActionButton>
+            <ActionButton
+              onClick={() => window.open(`${import.meta.env.BASE_URL}assets/hackathoncert.pdf`, '_blank')}
+              variant="solid"
+              className="min-w-[280px] justify-center px-6 py-3 text-base"
+              ariaLabel="View hackathon certificate"
+            >
+              View Hackathon Certificate ↗
+            </ActionButton>
+          </div>
           <ul className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-sm text-espresso">
             {hackathon.themes.map((theme) => (
               <li key={theme} className="border-b border-espresso/15 pb-1">
@@ -37,16 +47,6 @@ export function Hackathon() {
               </li>
             ))}
           </ul>
-          <div className="mt-6">
-            <ActionButton
-              onClick={() => window.open(`${import.meta.env.BASE_URL}assets/hackathoncert.pdf`, '_blank')}
-              variant="solid"
-              className="px-6"
-              ariaLabel="View hackathon certificate"
-            >
-              View Hackathon Certificate ↗
-            </ActionButton>
-          </div>
         </Reveal>
       </div>
     </section>
