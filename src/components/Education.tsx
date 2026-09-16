@@ -13,7 +13,12 @@ export function Education() {
               {education.institution}
             </h2>
           </div>
-          <p className="text-lg text-espresso">{education.programme}</p>
+          <div>
+            <p className="text-lg text-espresso">{education.programme}</p>
+            <p className="mt-2 text-sm font-medium uppercase tracking-[0.12em] text-ink/60">
+              Specialisation: Cybersecurity
+            </p>
+          </div>
           <div className="md:text-right">
             <p className="label-meta">Expected graduation</p>
             <p className="mt-2 font-serif text-3xl">{education.expectedGraduation}</p>
