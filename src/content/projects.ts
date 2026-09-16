@@ -1,4 +1,4 @@
-export type ProjectFilter = 'All' | 'Development' | 'Cloud' | 'Data' | 'UX/UI'
+export type ProjectFilter = 'All' | 'Development' | 'Data' | 'UX/UI'
 
 export type ProjectVisual = 'sccci' | 'tutoring' | 'motors' | 'education'
 
@@ -254,4 +254,4 @@ export const projects: Project[] = [
   },
 ]
 
-export const projectFilters: ProjectFilter[] = ['All', 'Development', 'Cloud', 'Data', 'UX/UI']
+export const projectFilters: ProjectFilter[] = ['All', 'Development', 'Data', 'UX/UI']
