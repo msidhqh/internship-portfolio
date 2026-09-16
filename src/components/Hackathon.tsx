@@ -18,6 +18,18 @@ export function Hackathon() {
         </Reveal>
         <Reveal delay={0.08}>
           <p className="leading-relaxed text-ink/80">{hackathon.summary}</p>
+          <p className="mt-5 leading-relaxed text-ink/80">
+            “Our team developed a peer tutoring platform for the hackathon, with
+            my focus on the UI/UX and student-facing experience.”
+          </p>
+          <ActionButton
+            href="#peer-tutoring-platform"
+            variant="solid"
+            className="mt-6 px-6 py-3 text-base"
+            ariaLabel="Explore the Peer Tutoring Platform"
+          >
+            Explore the Peer Tutoring Platform →
+          </ActionButton>
           <ul className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-sm text-espresso">
             {hackathon.themes.map((theme) => (
               <li key={theme} className="border-b border-espresso/15 pb-1">

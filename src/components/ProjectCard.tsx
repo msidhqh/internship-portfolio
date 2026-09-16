@@ -10,10 +10,12 @@ type Props = {
 export function ProjectCard({ project, reverse = false, onOpen }: Props) {
   return (
     <article
+      id={project.id}
       data-cursor="hover"
       className={`group grid items-center gap-8 border-t border-espresso/10 py-12 md:grid-cols-2 md:gap-14 md:py-16 ${
         reverse ? 'md:[&>*:first-child]:order-2' : ''
       }`}
+      style={{ scrollMarginTop: '6rem' }}
     >
       <button
         type="button"
